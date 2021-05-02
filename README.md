@@ -35,9 +35,9 @@ Type the title of the note and the body of the note as well and you should see a
 
 When you select the save icon it will save it to the left. 
 
-![The landing page for the note taker](assets/nt-landing.png)
+![The landing page for the note taker](Assets/nt-landing.png)
 
-![The note pad with saved entries](assets/nt-notepad.png)
+![The note pad with saved entries](Assets/nt-notepad.png)
 
 ## License
 
