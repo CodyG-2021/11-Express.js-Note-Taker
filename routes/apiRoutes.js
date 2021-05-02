@@ -33,7 +33,7 @@ module.exports = (app) => {
 
 		fs.readFile("./db/db.json", "utf8", (err, data) => {
 			let note = JSON.parse(data);
-			//Refresh the list to show all ID's less the one that was deleted
+			//Read all the notes and remove the note with the given id
 			let notes = note.filter(note => { return note.id !== req.params.id })
 			res.json(notes);
 			fs.writeFile("./db/db.json", JSON.stringify(notes), function (err) {
